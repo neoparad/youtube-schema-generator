@@ -4,7 +4,7 @@
 Plugin Name: YouTube Schema Generator
 Plugin URI: https://github.com/neoparad/youtube-schema-generator
 Description: YouTube動画の構造化データを自動生成
-Version: 1.0.0
+Version: 1.0.1
 Author: LINKTH
 Author URI: https://link-th.co.jp/
 License: GPL v2 or later
