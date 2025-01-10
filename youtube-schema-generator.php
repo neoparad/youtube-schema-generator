@@ -10,12 +10,12 @@ License: GPL v2 or later
 */
 
 // 更新チェッカーの読み込み
-require_once __DIR__ . '/plugin-update-checker/plugin-update-checker.php';
+require_once __DIR__ . '/plugin-update-checker-master/plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 // GitHubからの更新をチェックする設定
 $myUpdateChecker = PucFactory::buildUpdateChecker(
-    'https://github.com/あなたのGitHubユーザー名/youtube-schema-generator/',
+    'https://github.com/neoparad/youtube-schema-generator/',
     __FILE__,
     'youtube-schema-generator'
 );
